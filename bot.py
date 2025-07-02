@@ -4,8 +4,8 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Config (environment variables)
 BOT_TOKEN = os.getenv("")
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("91c88b554ab2a34f8b0c72228f06fc0b")
+API_ID = int(os.getenv("29882686"))
+API_HASH = os.getenv("b642a25aee67b2aed02116df4a916bca")
 LOG_CHANNEL = os.getenv("-1002269022170")
 SHORTENER_API = os.getenv("9deac3bf344cd8a3724e99f0af8c87e13079cb01")
 SHORTENER_URL = f"https://exe.io/api?api={SHORTENER_API}&url={{}}"
