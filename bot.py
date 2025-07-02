@@ -3,11 +3,11 @@ from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 
 # Config (environment variables)
-BOT_TOKEN = os.getenv("BOT_TOKEN")
-API_ID = int(os.getenv("API_ID"))
-API_HASH = os.getenv("API_HASH")
-LOG_CHANNEL = os.getenv("LOG_CHANNEL")
-SHORTENER_API = os.getenv("SHORTENER_API")
+BOT_TOKEN = os.getenv("")
+API_ID = int(os.getenv("27084955"))
+API_HASH = os.getenv("91c88b554ab2a34f8b0c72228f06fc0b")
+LOG_CHANNEL = os.getenv("-1002269022170")
+SHORTENER_API = os.getenv("9deac3bf344cd8a3724e99f0af8c87e13079cb01")
 SHORTENER_URL = f"https://exe.io/api?api={SHORTENER_API}&url={{}}"
 
 logging.basicConfig(level=logging.INFO)
